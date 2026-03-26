@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #ff0000;
+        }
+
+        .banner {
+            background: url('https://picsum.photos/1200/400') center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h1 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .proyectos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .card h3 {
+            padding: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Portafolio de Diseño Gráfico</h2>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="banner" id="inicio">
+    <h1>Hola, soy diseñadora gráfica</h1>
+    <p>Creatividad • Branding • Diseño digital</p>
+</div>
+
+<div class="section" id="proyectos"> 
+    <h2>Mis trabajos</h2>
+    <div class="proyectos">
+        <a href="file:///C:/Users/Usuario/Documents/CAROLINA/VISUALIDADES/PORTAFOLIO/Fotografias/index.html" target="_blank">
+            <div class="card">
+                <img src="./FOT7.JPG">
+                <h3>Fotografias</h3>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="section" id="proyectos"> 
+    <div class="proyectos">
+        <a href="file:///C:/Users/Usuario/Documents/CAROLINA/VISUALIDADES/PORTAFOLIO/Ilustraciones/index.html" target="_blank">
+            <div class="card">
+                <img src="./ILU9.JPG">
+                <h3>Ilustraciones</h3>
+            </div>
+        </a>
+</div>
+
+<div class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: engel1220.e@gmail.com</p>
+    <p>Instagram: @carotumbada05</p>
+</div>
+
+<footer>
+    <p>© 2026 Mi Portafolio</p>
+</footer>
+
+</body>
+</html>
